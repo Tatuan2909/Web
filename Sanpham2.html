@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm - New Grand i10</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Sanpham1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <img src="anh/logo.jpg" alt="logo">
+                <div class="contact-info">
+                    <p><b>CarStore</b></p>
+                    <p><b>0345.702.206</b></p>
+                </div>
+                <div class="contact-icons">
+                    <a href="tel:0345702206" target="_blank">
+                        <img src="anh/contact_icon_1.png" alt="Gọi điện">
+                    </a>
+                    <a href="https://zalo.me/0345702206" target="_blank">
+                        <img src="anh/contact_icon_2.png" alt="Zalo">
+                    </a>
+                    <a href="https://m.me/yourpageid" target="_blank">
+                        <img src="anh/contact_icon_3.png" alt="Messenger">
+                    </a>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#">Giới thiệu</a>
+                <div class="dropdown">
+                    <a href="#">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <div class="cot">
+                            <p>Xe du lịch</p>
+                            <ul>
+                                <li><a href="#">New Grant i10</a></li>
+                                <li><a href="#">New Grant i10 Sedan</a></li>
+                                <li><a href="#">All New Accent</a></li>
+                                <li><a href="#">Elantra</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe SUV</p>
+                            <ul>
+                                <li><a href="#">Venue</a></li>
+                                <li><a href="#">Creta</a></li>
+                                <li><a href="#">Palisade</a></li>
+                                <li><a href="#">Tucson</a></li>
+								<li><a href="#">Santa Fe</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe MPV</p>
+                            <ul>
+                                <li><a href="#">Custin</a></li>
+                                <li><a href="#">Stargazer - Stargazer X</a></li>                               
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe điện(EV)</p>
+                            <ul>
+                                <li><a href="#">IONIQ5</a></li>                             
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <<p>Xe chuyên dụng</p>
+                            <ul>
+                                <li><a href="#">Starex cứu thương</a></li>
+                                <li><a href="#">Starex chở tiền</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe thương mại EU4</p>
+                            <ul>
+                                <li><a href="#">New Mighty 250 - N250L</a></li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Tin Tức</a>                    
+                </div>
+                <a href="#">Dịch vụ</a>
+            </nav>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fa fa-bars"></i>
+              </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm Sản Phẩm">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="icons">
+                <a href="Giohang.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="cartCount">0</span>
+                </a>
+                <a href="Dangnhap.html"><i class="fa fa-user"></i></a>
+            </div>
+        </div>
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="#">Giới thiệu</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Tin Tức</a>
+            <a href="#">Dịch Vụ</a>
+        </nav>
+    </header>
+<section class="product-detail">
+    <div class="product-container">
+        <div class="product-images">
+            <div class="main-image">
+                <img id="mainImage" src="anh/xe1.png" alt="New Grand i10">
+                <button id="prevBtn" class="image-btn prev-btn">❮</button>
+                <button id="nextBtn" class="image-btn next-btn">❯</button>
+            </div>
+            <div class="thumbnail-images">
+                <img src="anh/xe1.1.jpg" alt="Hình ảnh 1">
+                <img src="anh/xe1.1.jpg" alt="Hình ảnh 2">
+                <img src="anh/xe1.1.jpg" alt="Hình ảnh 3">
+                <img src="anh/xe1.1.jpg" alt="Hình ảnh 4">
+                <img src="anh/xe1.1.jpg" alt="Hình ảnh 5">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h1>New Grand i10 Sedan</h1>
+            <div class="rating">
+                <span>5.0</span>
+                <a href="#">Xem đánh giá</a>
+            </div>
+            <div class="price">
+                <span class="current-price">361.000.000đ</span>
+                <span class="original-price">380.000.000</span>
+                <span class="discount">-5%</span>
+            </div>
+            <button id="buyNowBtn" class="buy-now">Mua ngay</button>
+            <p class="delivery-info">Giao tận nơi hoặc nhận tại cửa hàng</p>
+
+            <div class="gifts">
+                <h3>Quà tặng:</h3>
+                <ul>
+                    <li>🎁 Tặng dịch vụ vệ sinh miễn phí </li>
+                    <li>✔️ Miễn phí giao hàng toàn quốc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-details">
+    <div class="product-reviews">
+        <h2>Đánh giá chi tiết</h2>
+        <p>
+			Hyundai Grand i10 Sedan là mẫu xe đô thị cỡ nhỏ rất được ưa chuộng tại Việt Nam, với thiết kế trẻ trung, hiện đại và trang bị tiện nghi vượt trội trong phân khúc. Xe có hai kiểu dáng hatchback và sedan, sử dụng động cơ xăng Kappa 1.2L, cho công suất 83 mã lực và mô-men xoắn 114Nm, đi kèm hộp số sàn 5 cấp hoặc số tự động 4 cấp. Grand i10 sở hữu kích thước nhỏ gọn với chiều dài cơ sở 2.450mm và khoảng sáng gầm 157mm, phù hợp di chuyển trong đô thị. Ngoại thất nổi bật với đèn LED ban ngày và mâm hợp kim 15 inch, trong khi nội thất được trang bị màn hình cảm ứng 8 inch hỗ trợ Apple CarPlay/Android Auto, điều hòa tự động và khởi động nút bấm. Các tính năng an toàn gồm phanh ABS, EBD, cân bằng điện tử ESC, hỗ trợ khởi hành ngang dốc HAC và camera lùi.
+		</p>
+        <div class="review-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TDQwhEWHfgg?si=0396Lnx8gjSg3aZf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>   
+    </div>
+    <div class="product-specifications">
+        <h2>Thông tin sản phẩm</h2>
+        <table class="specifications-table">
+            <tr>
+                <th>Kích Thước Tổng Thể</th>
+                <td>3815 x 1680 x 1520 mm</td>
+            </tr>
+            <tr>
+                <th>Chiều Dài Cơ Sở</th>
+                <td>2450 mm</td>
+            </tr>
+            <tr>
+                <th>Khoảng Sáng Gầm Xe</th>
+                <td>157 mm</td>
+            </tr>
+            <tr>
+                <th>Động Cơ</th>
+                <td>Kappa 1.2 MPI</td>
+            </tr>
+            <tr>
+                <th>Dung Tích Xi Lanh</th>
+                <td>1197 cc</td>
+            </tr>
+            <tr>
+                <th>Công Suất Cực Đại</th>
+                <td>83 PS @ 6000 rpm </td>
+            </tr>
+            <tr>
+                <th>Mô Men Xoắn Cực Đại</th>
+                <td>114 Nm @ 4000 rpm</td>
+            </tr>
+            <tr>
+                <th>Dung Tích Bình Nhiên Liệu</th>
+                <td>37 lít</td>
+            </tr>
+            <tr>
+                <th>Hộp Số</th>
+                <td>Tự động 4 cấp</td>
+            </tr>
+            <tr>
+                <th>Hệ Thống Dẫn Động</th>
+                <td>FWD</td>
+            </tr>
+            <tr>
+                <th>Phanh Trước/Phanh Sau</th>
+                <td>Đĩa/Tang trống</td>
+            </tr>
+            <tr>
+                <th>Hệ Thống Treo Trước</th>
+                <td>McPherson</td>
+            </tr>
+            <tr>
+                <th>Hệ Thống Treo Sau</th>
+                <td>Thanh cân bằng CTBA</td>
+            </tr>
+            <tr>
+                <th>Thông Số Lốp</th>
+                <td>175/60 R15)</td>
+            </tr>          
+        </table>
+    </div>
+
+   
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>SẢN PHẨM</h4>
+            <ul>
+                <li><a href="#">Xe du lịch</a></li>
+                <li><a href="#">Xe SUV</a></li>
+                <li><a href="#">Xe MPV</a></li>
+				<li><a href="#">Xe Điện (EV)</a></li>
+				<li><a href="#">Xe chuyên dụng,tải nhẹ</a></li>
+				<li><a href="#">Xe thương mại EU4</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>MUA XE</h4>
+            <ul>
+                <li><a href="#">Chọn xe</a></li>
+                <li><a href="#">So sánh xe</a></li>
+                <li><a href="#">Thông tin dịch vụ</a></li>
+				<li><a href="#">Đăng kí lái thử</a></li>
+				<li><a href="#">Tìm đại lý</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>DỊCH VỤ</h4>
+            <ul>
+                <li><a href="#">Phụ tùng & Phụ kiện chính hãng</a></li>
+                <li><a href="#">Đăng kí làm đại lý<a></li>
+                <li><a href="#">Tìm đại lý</a></li>
+                <li><a href="#">Chăm sóc khách hàng</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>GIỚI THIỆU</h4>
+            <ul>
+                <li><a href="#">Tin công ty KTV</a></li>
+                <li><a href="#">Giới thiệu Hyundai<a></li>
+                <li><a href="#">Giới thiệu TanhCarStore</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>BẢN ĐỒ</h4>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14931.339738709165!2d106.05463020248972!3d20.676293444177908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c0cd38f568f3%3A0x50681a4fcf414c4b!2zQW4gVOG6o28sIFRwLiBIxrBuZyBZw6puLCBIxrBuZyBZw6puLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1743648692178!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="Sanpham2.js"></script>
+</body>
+</html>

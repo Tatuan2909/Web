@@ -1,0 +1,133 @@
+/* Container chính */
+.checkout-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: flex-start;
+}
+
+.buyer-info, .cart-summary {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gender {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gender label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cart-item .quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-item button.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart-total p {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+
+.checkout-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.checkout-btn:hover {
+    background-color: #0056b3;
+}
+
+.cart-summary .payment-method {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.payment-method label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+}
+@media screen and (max-width: 800px) {
+    .checkout-container {
+        grid-template-columns: 1fr; 
+    }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web bán Oto</title>
+    <link rel="stylesheet" href="Dangnhap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="logo">
+                <img src="anh/logo.jpg" alt="logo">
+                <div class="contact-info">
+                    <p><b>CarStore</b></p>
+                    <p><b>0345.702.206</b></p>
+                </div>
+                <div class="contact-icons">
+                    <a href="tel:0345702206" target="_blank">
+                        <img src="anh/contact_icon_1.png" alt="Gọi điện">
+                    </a>
+                    <a href="https://zalo.me/0345702206" target="_blank">
+                        <img src="anh/contact_icon_2.png" alt="Zalo">
+                    </a>
+                    <a href="https://m.me/yourpageid" target="_blank">
+                        <img src="anh/contact_icon_3.png" alt="Messenger">
+                    </a>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#">Giới thiệu</a>
+                <div class="dropdown">
+                    <a href="#">Sản phẩm</a>
+                    <div class="dropdown-content">
+                        <div class="cot">
+                            <p>Xe du lịch</p>
+                            <ul>
+                                <li><a href="#">New Grant i10</a></li>
+                                <li><a href="#">New Grant i10 Sedan</a></li>
+                                <li><a href="#">All New Accent</a></li>
+                                <li><a href="#">Elantra</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe SUV</p>
+                            <ul>
+                                <li><a href="#">Venue</a></li>
+                                <li><a href="#">Creta</a></li>
+                                <li><a href="#">Palisade</a></li>
+                                <li><a href="#">Tucson</a></li>
+								<li><a href="#">Santa Fe</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe MPV</p>
+                            <ul>
+                                <li><a href="#">Custin</a></li>
+                                <li><a href="#">Stargazer - Stargazer X</a></li>                               
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe điện(EV)</p>
+                            <ul>
+                                <li><a href="#">IONIQ5</a></li>                             
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <<p>Xe chuyên dụng</p>
+                            <ul>
+                                <li><a href="#">Starex cứu thương</a></li>
+                                <li><a href="#">Starex chở tiền</a></li>
+                            </ul>
+                        </div>
+                        <div class="cot">
+                            <p>Xe thương mại EU4</p>
+                            <ul>
+                                <li><a href="#">New Mighty 250 - N250L</a></li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Tin Tức</a>                    
+                </div>
+                <a href="#">Dịch vụ</a>
+            </nav>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fa fa-bars"></i>
+              </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm Sản phẩm">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="icons">
+                <a href="Giohang.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="cartCount">0</span>
+                </a>
+                <a href="Dangnhap.html"><i class="fa fa-user"></i></a>
+            </div>
+        </div>
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="#">Giới thiệu</a>
+            <a href="#">Sản phẩm</a>
+            <a href="#">Tin Tức</a>
+            <a href="#">Dịch Vụ</a>
+        </nav>
+    </header>
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Đăng nhập</h2>
+            <p>Nếu bạn chưa có tài khoản tại CarStore.vn</p>
+            <p>Đăng ký ngay <a href="Dangky.html">TẠI ĐÂY!</a></p>
+            <form action="index.html" method="GET" class="login-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email đăng nhập*" required>
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" name="password" placeholder="************" required>
+                <div class="form-footer">
+                    <a href="#" class="forgot-password">Quên mật khẩu?</a>
+                </div>
+                <button type="submit" class="login-button">Đăng nhập</button>
+            </form>
+        </div>
+    </section>
+    <script src="Dangnhap.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>SẢN PHẨM</h4>
+            <ul>
+                <li><a href="#">Xe du lịch</a></li>
+                <li><a href="#">Xe SUV</a></li>
+                <li><a href="#">Xe MPV</a></li>
+				<li><a href="#">Xe Điện (EV)</a></li>
+				<li><a href="#">Xe chuyên dụng,tải nhẹ</a></li>
+				<li><a href="#">Xe thương mại EU4</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>MUA XE</h4>
+            <ul>
+                <li><a href="#">Chọn xe</a></li>
+                <li><a href="#">So sánh xe</a></li>
+                <li><a href="#">Thông tin dịch vụ</a></li>
+				<li><a href="#">Đăng kí lái thử</a></li>
+				<li><a href="#">Tìm đại lý</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>DỊCH VỤ</h4>
+            <ul>
+                <li><a href="#">Phụ tùng & Phụ kiện chính hãng</a></li>
+                <li><a href="#">Đăng kí làm đại lý<a></li>
+                <li><a href="#">Tìm đại lý</a></li>
+                <li><a href="#">Chăm sóc khách hàng</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>GIỚI THIỆU</h4>
+            <ul>
+                <li><a href="#">Tin công ty KTV</a></li>
+                <li><a href="#">Giới thiệu Hyundai<a></li>
+                <li><a href="#">Giới thiệu CarStore</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>BẢN ĐỒ</h4>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14931.339738709165!2d106.05463020248972!3d20.676293444177908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c0cd38f568f3%3A0x50681a4fcf414c4b!2zQW4gVOG6o28sIFRwLiBIxrBuZyBZw6puLCBIxrBuZyBZw6puLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1743648692178!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
